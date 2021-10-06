@@ -25,7 +25,7 @@ public class MiActionListener implements ActionListener{
     @Override
     public void actionPerformed(ActionEvent ae) {
         JButton jButton = (JButton) ae.getSource();
-        String nombre = jButton.getName();
+        String nombre = jButton.getText();
         pruebaEventos.setJLabel1("Has pulsado el " + nombre);
     }
     
